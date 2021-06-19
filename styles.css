@@ -122,12 +122,15 @@ body{
       box-shadow: 0 .25rem 1rem #c7365f;
    }
    .player{
-      padding-top: 4rem;
+      padding-top: 3.5rem;
    }
    .name{
       font-size: 2.2rem;
       font-weight: 500;
       margin-bottom: 1rem;
+   }
+   .score{
+      margin-top: 3rem;
    }
    .player-active .name{
       font-size: 2.2rem;
@@ -157,8 +160,8 @@ body{
    }
    .dice{
       position: absolute;
-      left: 40%;
-      top: 21rem;
+      left: 39%;
+      top: 20rem;
       height: 80px;
       box-shadow: 0 1rem 1rem rgb(190, 190, 190);
       border-radius: 10px;
@@ -169,15 +172,15 @@ body{
    }
    .btn-new{
       top: 7rem;
-      left: 34%;
+      left: 31%;
    }
    .btn-roll{
       top: 62%;
-      left: 34.5%;
+      left: 32%;
    }
    .btn-hold{
       top: 69%;
-      left: 39%;
+      left: 38%;
    }
    .btn:hover{
       transition: none;
