@@ -118,7 +118,7 @@ body{
 @media screen and (max-width: 480px) {
    .main-wrapper{
       width: 95vw;
-      height: 70vh;
+      height: 75vh;
       box-shadow: 0 .25rem 1rem #c7365f;
    }
    .player{
@@ -167,16 +167,16 @@ body{
       font-size: 1rem;
    }
    .btn-new{
-      top: 8rem;
-      left: 33%;
+      top: 7rem;
+      left: 34%;
    }
    .btn-roll{
-      top: 58%;
-      left: 33%;
+      top: 62%;
+      left: 34.5%;
    }
    .btn-hold{
-      top: 65%;
-      left: 40%;
+      top: 69%;
+      left: 41%;
    }
    .winner{
       color: #c7365f;
