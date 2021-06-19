@@ -164,7 +164,7 @@ body{
       border-radius: 10px;
    }
    .btn{
-      font-size: 1rem;
+      font-size: 1.2rem;
       cursor: none;
    }
    .btn-new{
@@ -180,8 +180,11 @@ body{
       left: 39%;
    }
    .btn:hover{
-      letter-spacing: 1.2px;
-      transition: all .2s;
+      transition: none;
+      letter-spacing: normal;
+   }
+   .btn:active{
+      box-shadow: none;
    }
    .winner{
       color: #c7365f;
