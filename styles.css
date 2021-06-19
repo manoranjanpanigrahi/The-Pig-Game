@@ -113,3 +113,73 @@ body{
 .winner{
    color: #c7365f;
 }
+
+/***** responsiveness for small screen devices*/
+@media screen and (max-width: 480px) {
+   .main-wrapper{
+      width: 95vw;
+      height: 70vh;
+      box-shadow: 0 .25rem 1rem #c7365f;
+   }
+   .player{
+      padding-top: 4rem;
+   }
+   .name{
+      font-size: 2.2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+   }
+   .player-active .name{
+      font-size: 2.2rem;
+      margin-top: 1px;
+   }
+   .player-active .score{
+      font-size: 4rem;
+   }
+   .current{
+      background-color: #c7365f;
+      border-radius: 7px;
+      padding: .5rem;
+      text-align: center;
+      opacity: 0.8;
+      color: white;
+      margin-bottom: 1rem;
+   }
+   .player-active .current-label{
+      font-size: 1.6rem;
+   }
+   .current-label{
+      font-size: 1.5rem;
+      padding-bottom: 0.8rem;
+   }
+   .current-score{
+      font-size: 2.3rem;
+   }
+   .dice{
+      position: absolute;
+      left: 40%;
+      top: 21rem;
+      height: 80px;
+      box-shadow: 0 1rem 1rem rgb(190, 190, 190);
+      border-radius: 10px;
+   }
+   .btn{
+      font-size: 1rem;
+   }
+   .btn-new{
+      top: 8rem;
+      left: 33%;
+   }
+   .btn-roll{
+      top: 58%;
+      left: 33%;
+   }
+   .btn-hold{
+      top: 65%;
+      left: 40%;
+   }
+   .winner{
+      color: #c7365f;
+      font-size: .5rem;
+   }
+}
