@@ -176,11 +176,11 @@ body{
    }
    .btn-roll{
       top: 62%;
-      left: 32%;
+      left: 31%;
    }
    .btn-hold{
       top: 69%;
-      left: 36%;
+      left: 37%;
    }
    .btn:hover{
       transition: none;
