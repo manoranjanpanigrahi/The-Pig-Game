@@ -17,12 +17,20 @@ h1{
    left: 50;
    top: 1rem;
 }
+a{
+   position: absolute;
+   font-size: 1.2rem;
+   left: 50;
+   top: 4rem;
+   text-decoration: none;
+   color: black;
+}
 .main-wrapper{
-   margin-top: 50px;
+   margin-top: 80px;
    display: flex;
    position: relative;
    width: 70vw;
-   height: 86vh;
+   height: 82vh;
    overflow: hidden;
    box-shadow: 0 .5rem 2rem #c7365f;
    border-radius: 20px;
@@ -80,9 +88,9 @@ h1{
 }
 .dice{
    position: absolute;
-   left: 47%;
+   left: 46.5%;
    top: 15rem;
-   height: 80px;
+   height: 100px;
    box-shadow: 0 1rem 1rem rgb(190, 190, 190);
    border-radius: 10px;
 }
@@ -100,7 +108,7 @@ h1{
    opacity: .8;
 }
 .btn-new{
-   top: 6rem;
+   top: 8rem;
 }
 .btn-roll{
    top: 65%;
@@ -144,8 +152,16 @@ h1{
       font-size: 2.2rem;
       left: 50;
    }
+   a{
+      position: absolute;
+      font-size: 1.2rem;
+      left: 50;
+      top: 4rem;
+      text-decoration: none;
+      color: black;
+}
    .main-wrapper{
-      margin-top: -1.5rem;
+      margin-top: 0;
       width: 95vw;
       height: 80vh;
       box-shadow: 0 .25rem 1rem #c7365f;
@@ -201,7 +217,7 @@ h1{
       cursor: none;
    }
    .btn-new{
-      top: 5rem;
+      top: 7rem;
       left: 31%;
    }
    .btn-roll{

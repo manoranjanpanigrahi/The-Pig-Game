@@ -52,8 +52,17 @@ document.querySelector('.btn-hold').addEventListener('click' , function () {
       //update the gobal score UI
       document.getElementById('#score-' + activePlayer).textContent = score[activePlayer];
 
+      //take final score from user
+      var userInput = document.querySelector('.user-score').value;
+      var winningScore;
+      if (userInput) {
+         winningScore = userInput;
+      } else {
+         winningScore = 50;
+      }
+      
       //check the winner 
-      if (score[activePlayer] >= 20) {
+      if (score[activePlayer] >= winningScore) {
          document.querySelector('#name-' + activePlayer).textContent = 'WINNER!!';
          document.querySelector('.dice').style.display = 'none';
          document.querySelector('.player' + activePlayer).classList.add('winner');

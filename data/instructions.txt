@@ -1,0 +1,13 @@
+1. one player can roll the dice unlimited times till he/she rolls a 1 on the dice or uses the HOLD button to store the current score
+
+2. in case of current player gets a 1 or uses HOLD , the current player will change.
+
+3. if you get a 1 then your current score will be reset to 0. so dont forget to keep saving it using HOLD button.
+
+4. you current score will keep adding after every dice roll. to save the current score press HOLD button.
+
+5. you can input your own final score reaching which the player will win by inputing it in the 'enter final score' field. it has to be between 20-100. by default its 50.
+
+6. to start a new game , click on the NEW GAME BUTTON.
+
+ENJOY!!!!!
