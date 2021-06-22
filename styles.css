@@ -192,8 +192,8 @@ h1{
       position: absolute;
       left: 39%;
       top: 18rem;
-      height: 80px;
-      box-shadow: 0 1rem 1rem rgb(190, 190, 190);
+      height: 85px;
+      box-shadow: 0 1rem 1rem rgb(163, 163, 163);
       border-radius: 10px;
    }
    .btn{
@@ -201,7 +201,7 @@ h1{
       cursor: none;
    }
    .btn-new{
-      top: 7rem;
+      top: 5rem;
       left: 31%;
    }
    .btn-roll{
