@@ -201,15 +201,15 @@ h1{
       cursor: none;
    }
    .btn-new{
-      top: 5rem;
+      top: 7rem;
       left: 31%;
    }
    .btn-roll{
-      top: 60%;
+      top: 59%;
       left: 31%;
    }
    .btn-hold{
-      top: 67%;
+      top: 66%;
       left: 37%;
    }
    .btn:hover{
@@ -222,7 +222,7 @@ h1{
    .user-score{
       font-size: 1.2rem;
       padding: 2px 0 ;
-      top: 78%;
+      top: 73%;
    }
    .winner{
       color: #c7365f;
