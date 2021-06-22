@@ -191,7 +191,7 @@ h1{
    .dice{
       position: absolute;
       left: 39%;
-      top: 20rem;
+      top: 18rem;
       height: 80px;
       box-shadow: 0 1rem 1rem rgb(190, 190, 190);
       border-radius: 10px;
@@ -201,15 +201,15 @@ h1{
       cursor: none;
    }
    .btn-new{
-      top: 7rem;
+      top: 5rem;
       left: 31%;
    }
    .btn-roll{
-      top: 62%;
+      top: 60%;
       left: 31%;
    }
    .btn-hold{
-      top: 69%;
+      top: 67%;
       left: 37%;
    }
    .btn:hover{
@@ -222,7 +222,7 @@ h1{
    .user-score{
       font-size: 1.2rem;
       padding: 2px 0 ;
-      top: 80%;
+      top: 78%;
    }
    .winner{
       color: #c7365f;
