@@ -104,11 +104,11 @@ h1{
 }
 .btn-roll{
    top: 65%;
-   left: 43.4%;
+   left: 44%;
 }
 .btn-hold{
    top: 73%;
-   left: 45.6%;
+   left: 46%;
 }
 .btn:hover{
    letter-spacing: 1.5px;
@@ -116,6 +116,23 @@ h1{
 }
 .btn:active{
    box-shadow: 0 1rem 1rem rgb(0,0,0,0.5);
+}
+.user-score{
+   position: absolute;
+   left: 50%;
+   top: 85%;
+   transform: translateX(-50%);
+   border-radius: 15px;
+   border: 2px solid #c7365f;
+   box-shadow: 0 1px 8px black;
+   text-align: center;
+   background: transparent;
+   width: 11rem;
+   padding: .5rem;
+   font-size: 1.2rem;
+}
+.user-score:focus{
+   outline: none;
 }
 .winner{
    color: #c7365f;
@@ -201,6 +218,11 @@ h1{
    }
    .btn:active{
       box-shadow: none;
+   }
+   .user-score{
+      font-size: 1.2rem;
+      padding: 2px 0 ;
+      top: 80%;
    }
    .winner{
       color: #c7365f;
