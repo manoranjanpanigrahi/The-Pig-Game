@@ -156,7 +156,7 @@ a{
       position: absolute;
       font-size: 1.2rem;
       left: 50;
-      top: 4rem;
+      top: 3.5rem;
       text-decoration: none;
       color: black;
 }
@@ -217,7 +217,7 @@ a{
       cursor: none;
    }
    .btn-new{
-      top: 7rem;
+      top: 6rem;
       left: 31%;
    }
    .btn-roll{
